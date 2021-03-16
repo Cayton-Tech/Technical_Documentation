@@ -66,3 +66,12 @@ body {
   border-bottom: 3px dashed #1F51FF;
 }
 
+.main-section header  {
+  color: #a5a1a9;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.main-section ul li {
+  margin-bottom: 15px;
+}
