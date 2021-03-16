@@ -76,3 +76,36 @@ body {
   margin-bottom: 15px;
 }
 
+@media (min-width: 900px) {
+  body  {
+    flex-direction: row;
+  }
+  
+   #navbar  {
+     width: 250px;
+     height: 100vh;
+     background-color: #ccc;
+     margin-top: 0;
+     text-align: left;
+     position: fixed;
+     padding: 0;
+  }
+  
+  #navbar header  {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px
+  }
+  
+  #navbar ul  {
+    padding-left: 40px;
+  }
+  
+  #navbar ul li {
+    padding-top: 15px;
+  }
+  
+  #main-doc {
+    margin-left: 350px;
+  }
+}
